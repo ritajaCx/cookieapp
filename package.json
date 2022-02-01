@@ -1,0 +1,16 @@
+{
+  "name": "day16_ritaja",
+  "version": "1.0.0",
+  "description": "cookies cd app",
+  "main": "appt1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node appt1"
+  },
+  "author": "rc",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2"
+  }
+}
