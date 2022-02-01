@@ -1,6 +1,6 @@
 const express = require('express')
 const cookieparser = require('cookie-parser')
-var port = 7077
+var port = process.env.PORT || 7077
 
 var app= express()
 app.use(cookieparser())  //creating the middleware cookieparser
